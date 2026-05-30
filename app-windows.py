@@ -43,7 +43,7 @@ if st.button("Download Video", type="primary"):
                 'format': 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/bestvideo+bestaudio/best',
                 'merge_output_format': 'mp4',
                 'outtmpl': f'{save_path}/%(title)s.%(ext)s',
-                'fmpeg_location':'C:/ffmpeg/bin'
+                'ffmpeg_location':'C:/ffmpeg/bin'
             }
 
             try:
